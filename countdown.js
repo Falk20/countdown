@@ -48,11 +48,7 @@ function startTimer(id, deadline) {
      }, 1000);
 }
 
-
-
-
-
 window.onload = function() {
-    var deadline = new Date("April 27, 2019 21:00:00");
+    var deadline = new Date("April 27, 2020 21:00:00");
     startTimer("clock", deadline);
 }
